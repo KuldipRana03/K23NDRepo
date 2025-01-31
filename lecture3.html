@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <label for="review">write a review:</label><br />
+      <textarea name="review" id="review" rows="10" cols="50">
+movie is good</textarea
+      >
+      <br /><br />
+      <label for="hobby"> choose your hobby:</label>
+      <input
+        type="checkbox"
+        id="hobby"
+        name="hobby"
+        value="sing"
+        checked
+      />Singing
+      <input type="checkbox" id="hobby" name="hobby" value="cook" />cooking
+      <input type="checkbox" id="hobby" name="hobby" value="dance" />dancing
+      <br /><br />
+
+      <label for="pro">select your programme:</label>
+      <input type="radio" id="btech" value="btech" name="btech" />
+      <label for="btech">B.Tech</label>
+      <input type="radio" id="bca" value="bca" name="btech" />
+      <label for="bca">BCA</label>
+      <input type="radio" id="pro" value="bpt" name="btech" checked />BPT
+
+      <br /><br />
+
+      <label for="state">select your state:</label>
+      <select name="state" id="state" size="3" multiple>
+        <option value="hr">haryana</option>
+        <option value="pb">punjab</option>
+        <option value="kr">kerala</option>
+      </select>
+
+      <br /><br />
+
+      <label for="filesel">choose file:</label>
+      <input type="file" name="filesel" id="filesel" />
+
+      <br /><br />
+      <input type="reset" name="resetform" id="resetform" value="resetform" />
+      <br /><br />
+      <input
+        type="image"
+        name="imagebtn"
+        id="imagebtn"
+        src="https://t4.ftcdn.net/jpg/00/28/27/95/360_F_28279558_SqNXoZWsQLfWYVxyKe9hVzZ49dJtKLsc.jpg"
+        width="100"
+        height="60"
+      />
+    </form>
+  </body>
+</html>
